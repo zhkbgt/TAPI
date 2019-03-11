@@ -29,6 +29,6 @@ FOUNDATION_EXPORT const unsigned char TAPIVersionString[];
 #import <TAPI/UZWidget.h>
 #import <TAPI/UZAppUtils.h>
 #import <TAPI/UZModule.h>
-#import <TAPI/WebView.h>
+#import <TAPI/APIWebView.h>
 #import <TAPI/NSDictionaryUtils.h>
 #import <TAPI/UZModule.h>
