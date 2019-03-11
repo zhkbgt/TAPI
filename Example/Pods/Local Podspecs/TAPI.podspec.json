@@ -1,0 +1,22 @@
+{
+  "name": "TAPI",
+  "version": "0.1.0",
+  "summary": "A short description of TAPI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhkbgt/TAPI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhkbgt": "kkbbggtt@163.com"
+  },
+  "source": {
+    "git": "https://github.com/zhkbgt/TAPI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TAPI/Classes/**/*"
+}
