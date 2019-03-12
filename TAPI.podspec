@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TAPI'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short descccc.'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,11 @@ TODO: Add long description of the pod here. zzz
 
 #  s.source_files = 'TAPI/Classes/**/*'
   
-  s.resource_bundles = {
-     'TAPI' => ['TAPI/Assets/*']
-   }
+  #s.resource_bundles = {
+  #   'TAPI' => ['TAPI/Assets/*']
+  # }
 
-
+  s.resources = "TAPI/Assets/*"
   s.vendored_frameworks = 'TAPI.framework'
   s.libraries = 'icucore', 'c++', 'bsm', 'z'
   s.frameworks = 'UIKit', 'MapKit', 'WebKit'
